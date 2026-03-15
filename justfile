@@ -1,0 +1,17 @@
+install:
+    deno install
+
+dev:
+    deno run -A npm:@rsbuild/core dev --open
+
+build:
+    deno run -A npm:@rsbuild/core build
+
+start:
+    deno run -A npm:@rsbuild/core preview
+
+lint:
+    deno lint
+
+build-nix:
+    nix build .#homepage-frontend --print-build-logs
