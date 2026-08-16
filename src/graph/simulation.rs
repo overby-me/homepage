@@ -3,7 +3,7 @@ use glam::Vec3;
 use super::data::{GraphData, GraphNode};
 
 // Faithful port of d3-force-3d as configured by react-force-graph-3d, whose
-// defaults the reference homepage (web/homepage) relies on. The simulation runs
+// defaults the reference homepage (apps/homepage) relies on. The simulation runs
 // three forces every tick in insertion order (link, charge, center), then
 // integrates positions with velocity decay, matching d3's `tick()`.
 

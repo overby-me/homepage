@@ -1,4 +1,4 @@
-# deslop configuration for web/homepage (Dioxus/WASM WebGL force-graph + a small
+# deslop configuration for apps/homepage (Dioxus/WASM WebGL force-graph + a small
 # axum backend).
 #
 # A Dioxus/WASM app that talks to WebGL directly inherently needs raw-memory
