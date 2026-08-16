@@ -65,7 +65,7 @@ use crate::runtime::{
 use std::f32::consts::PI;
 
 /// The animation tables, converted from upstream's half a megabyte of C by
-/// `web/homepage/gen-hopfanimations.nu`.
+/// `apps/homepage/gen-hopfanimations.nu`.
 const ANIMATIONS: &str = include_str!("../../data/hopfanimations.txt");
 
 const DISP_PERSPECTIVE: i32 = 0;
